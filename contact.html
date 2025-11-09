@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Putra Bali Koding</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">🤖 Putra Bali Koding</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section container">
+            <h2 class="section-title fade-in">Hubungi <span>Kami</span> 🤖</h2>
+            
+            <div class="contact-container">
+                <div class="contact-info fade-in">
+                    <h3>Punya Pertanyaan?</h3>
+                    <p>Kami siap membantu! Isi form di samping atau hubungi kami langsung.</p>
+                    <p><strong>Email:</strong> halo@putrabalikoding.com</p>
+                    <p><strong>Telepon:</strong> +62 812 3456 7890</p>
+                    <p><strong>Alamat:</strong><br>Jalan Koding No. 10,<br>Denpasar, Bali</p>
+                </div>
+
+                <form class="contact-form fade-in" style="transition-delay: 100ms;" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan Anda</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Putra Bali Koding. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
