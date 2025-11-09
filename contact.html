@@ -1,64 +1,92 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Putra Bali Koding</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>Contact - Putra Bali Koding</title>
+
+    <meta name="description" content="Hubungi Putra Bali Koding untuk bertanya atau mendaftar kelas coding. Temukan alamat, email, dan nomor telepon kami di sini. Kami siap membantu!" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script type="application/ld+json">
+      {
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Putra Bali Koding",
+  "url": "https://www.putrabalikoding.site/",
+  "logo": "https://www.putrabalikoding.site/assets/images/logo.png",
+  "description": "Putra Bali Koding adalah tempat kursus coding untuk anak dan remaja di Bali. Kami mengajarkan teknologi dengan cara yang seru dan menyenangkan.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jalan Lettu Nengah Duaji 1, Gang Murani No. 7b",
+    "addressLocality": "Gianyar",
+    "addressRegion": "Bali",
+    "addressCountry": "ID"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+62-895-623-318-043",
+    "contactType": "Customer Service",
+    "email": "putrawibawa7@gmail.com"
+  },
+  "sameAs": 
+    "https://www.instagram.com/putrabali.koding/"
+}
+    </script>
+  </head>
+  <body>
     <header class="header">
-        <nav class="navbar container">
-            <a href="index.html" class="logo">🤖 Putra Bali Koding</a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="programs.html">Programs</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-            </ul>
-            <div class="menu-toggle">☰</div>
-        </nav>
+      <nav class="navbar container">
+        <a href="index.html" class="logo">🤖 Putra Bali Koding</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">☰</div>
+      </nav>
     </header>
 
     <main>
-        <section class="section container">
-            <h2 class="section-title fade-in">Hubungi <span>Kami</span> 🤖</h2>
-            
-            <div class="contact-container">
-                <div class="contact-info fade-in">
-                    <h3>Punya Pertanyaan?</h3>
-                    <p>Kami siap membantu! Isi form di samping atau hubungi kami langsung.</p>
-                    <p><strong>Email:</strong> halo@putrabalikoding.com</p>
-                    <p><strong>Telepon:</strong> +62 812 3456 7890</p>
-                    <p><strong>Alamat:</strong><br>Jalan Koding No. 10,<br>Denpasar, Bali</p>
-                </div>
+      <section class="section container">
+        <h2 class="section-title fade-in">Hubungi <span>Kami</span> 🤖</h2>
 
-                <form class="contact-form fade-in" style="transition-delay: 100ms;" action="#" method="POST">
-                    <div class="form-group">
-                        <label for="name">Nama Lengkap</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Pesan Anda</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
-                </form>
+        <div class="contact-container">
+          <div class="contact-info fade-in">
+            <h3>Punya Pertanyaan?</h3>
+            <p>Kami siap membantu! Isi form di samping atau hubungi kami langsung.</p>
+            <p><strong>Email:</strong> halo@putrabalikoding.com</p>
+            <p><strong>Telepon:</strong> +62 812 3456 7890</p>
+            <p><strong>Alamat:</strong><br />Jalan Koding No. 10,<br />Denpasar, Bali</p>
+          </div>
+
+          <form class="contact-form fade-in" style="transition-delay: 100ms" action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Nama Lengkap</label>
+              <input type="text" id="name" name="name" required />
             </div>
-        </section>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan Anda</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <p>© 2025 Putra Bali Koding. All rights reserved.</p>
+      <p>© 2025 Putra Bali Koding. All rights reserved.</p>
     </footer>
 
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
